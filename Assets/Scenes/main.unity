@@ -408,11 +408,11 @@ RectTransform:
   m_Father: {fileID: 2137539498}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000012398, y: 139.5}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -40.003998}
   m_SizeDelta: {x: 600, y: 60}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &419201263
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -556,8 +556,10 @@ MonoBehaviour:
   BrickPrefab: {fileID: 897975713663390409, guid: 63f25b9733d2bcd4fa2ff6de1264c739, type: 3}
   LineCount: 6
   Ball: {fileID: 177912862}
-  ScoreText: {fileID: 0}
+  ScoreText: {fileID: 419201263}
   GameOverText: {fileID: 474497238}
+  m_Points: 0
+  m_GameOver: 0
 --- !u!1 &455529321
 GameObject:
   m_ObjectHideFlags: 0
@@ -868,6 +870,7 @@ MonoBehaviour:
   highScore: 0
   gameOver: 0
   highScoreName: 
+  mainGameOver: 0
   scoreText: {fileID: 419201263}
   highScoreText: {fileID: 789828890}
 --- !u!1 &789828888
@@ -902,11 +905,11 @@ RectTransform:
   m_Father: {fileID: 2137539498}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00025177, y: 209.5}
-  m_SizeDelta: {x: 600, y: 40.004}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 600, y: 40.003998}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &789828890
 MonoBehaviour:
   m_ObjectHideFlags: 0

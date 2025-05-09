@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using TMPro;
 
 public class MainManager : MonoBehaviour
 {
@@ -10,13 +11,13 @@ public class MainManager : MonoBehaviour
     public int LineCount = 6;
     public Rigidbody Ball;
 
-    public Text ScoreText;
+    public TextMeshProUGUI ScoreText;
     public GameObject GameOverText;
 
     private bool m_Started = false;
-    private int m_Points;
+    public int m_Points;
 
-    private bool m_GameOver = false;
+    public bool m_GameOver = false;
 
     /// Initializes the game by instantiating bricks in a grid pattern.
     /// The number of lines and points are determined by the LineCount and pointCountArray respectively.
